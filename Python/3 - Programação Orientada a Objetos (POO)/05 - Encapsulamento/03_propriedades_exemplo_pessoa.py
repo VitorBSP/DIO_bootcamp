@@ -28,3 +28,9 @@ print(f"Nome: {pessoa.get_nome()} \tIdade: {pessoa.get_idade()}")
 # Os dois jeitos funcionam!
 # Mas o primeiro é melhor, tem mais a "cara" e o padrão de boas práticas
 # da orientação ao objeto no python.
+
+# É mais pythonic utilizarmos o setter quando vamos utilizar alguma lógica
+# para alterar o valor do atributo. 
+
+# Lembre-se a parte de encapsulamento, tirando os decorators, são convenções
+# e boas prática não regras da linguagem.
